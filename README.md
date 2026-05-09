@@ -1,9 +1,7 @@
 # Aktivitas Naive Bayes — Apakah Cocok Bermain Tenis Hari Ini?
 
-Boilerplate aktivitas kelompok untuk mata kuliah **Machine Learning (DSB07)** — topik **Naive Bayes**.
+Aktivitas kelompok untuk mata kuliah **Machine Learning** — topik **Naive Bayes**.
 Cocok untuk satu sesi kelas (~45 menit) bagi mahasiswa S-1 Teknik Informatika.
-
-> Materi prasyarat: slide *PB11MAT_DSB07-P10_Naive Bayes* (Pengertian, Tahapan Klasifikasi, Analisa Data).
 
 ## Tujuan Pembelajaran (Sub-CPMK C3, A3)
 Setelah aktivitas ini, mahasiswa mampu:
@@ -52,8 +50,7 @@ Setelah aktivitas ini, mahasiswa mampu:
 ├── data/
 │   └── play_tennis.csv        # Dataset 14 baris
 └── notebooks/
-    ├── template.ipynb         # Versi mahasiswa (berisi TODO)
-    └── solusi.ipynb           # Kunci jawaban (untuk dosen)
+    └── template.ipynb         # berisi TODO
 ```
 
 ## Lisensi
