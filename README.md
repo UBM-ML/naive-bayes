@@ -26,15 +26,28 @@ Setelah aktivitas ini, mahasiswa mampu:
 | 5. Refleksi | 3 menit | 3 kalimat refleksi pribadi |
 
 ## Cara Menggunakan (untuk Dosen)
-1. **Fork / clone** repo ini ke GitHub Anda.
-2. Edit placeholder `USERNAME` di [notebooks/template.ipynb](notebooks/template.ipynb) dan tombol *Open in Colab* di bawah agar mengarah ke repo Anda.
-3. Bagikan link *Open in Colab* template ke mahasiswa. Minta tiap kelompok membuat **copy** ke Drive masing-masing.
-4. Simpan [notebooks/solusi.ipynb](notebooks/solusi.ipynb) untuk Anda sendiri (atau pindahkan ke branch privat sebelum repo di-publish).
 
-### Tombol Open in Colab (ganti `USERNAME`)
-```markdown
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/USERNAME/naive-bayes/blob/main/notebooks/template.ipynb)
-```
+Repo ini dirancang sebagai **template GitHub Classroom**. Alur penggunaan:
+
+1. Pastikan repo ini publik di organisasi Anda (mis. `UBM-ML/naive-bayes`) dan ditandai sebagai **Template repository** (Settings → Template repository).
+2. Buat *assignment* di GitHub Classroom yang menggunakan repo ini sebagai template, dengan tipe **Group assignment**.
+3. Sebelum membagikan invite, **pindahkan `notebooks/solusi.ipynb` ke branch privat** atau hapus dari template — agar kunci jawaban tidak ikut ter-clone ke repo tiap tim.
+4. Bagikan invite link Classroom ke mahasiswa. Setiap tim akan otomatis mendapat repo sendiri (mis. `UBM-ML-Classroom/naive-bayes-tim-andi`).
+5. Penilaian: lihat commit terakhir di branch `main` repo masing-masing tim sebelum deadline, gunakan rubrik di bawah.
+
+> **Catatan data:** URL CSV di dalam notebook sudah di-pin ke `UBM-ML/naive-bayes` (repo template publik), sehingga semua tim memuat dataset yang sama tanpa perlu mengedit URL. Jangan rename atau privat-kan repo template selama semester berjalan.
+
+## Untuk Tim Mahasiswa
+
+Setelah klik invite GitHub Classroom dari dosen, ikuti alur berikut:
+
+1. **Repo tim Anda otomatis dibuat** di organisasi kelas. Buka repo tersebut di GitHub.
+2. **Buka notebook di Colab.** Ada dua cara:
+   - Klik file `notebooks/template.ipynb` di GitHub → di atas preview notebook akan muncul tombol **"Open in Colab"**, **atau**
+   - Buka [colab.research.google.com](https://colab.research.google.com) → menu *File → Open notebook → tab GitHub* → cari repo tim Anda → pilih `notebooks/template.ipynb`.
+3. **Kerjakan TODO** di notebook. Tulis nama anggota tim di sel paling atas terlebih dahulu.
+4. **Simpan kembali ke repo tim Anda.** Di Colab: *File → Save a copy in GitHub* → pilih repo tim → branch `main` → commit message singkat (mis. *"selesai tahap 2"*).
+5. **Submission:** commit final sebelum deadline yang ditentukan dosen. Yang dinilai adalah commit terakhir di branch `main`.
 
 ## Rubrik Penilaian Kelompok (100 poin)
 
